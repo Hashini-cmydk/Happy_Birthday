@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Little Birthday Surprise 💗</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="floating-hearts" aria-hidden="true">
+    <span>♡</span><span>✦</span><span>♡</span><span>♥</span><span>✧</span>
+    <span>♡</span><span>✦</span><span>♡</span><span>♥</span><span>✧</span>
+  </div>
+  <div class="floating-cakes" aria-hidden="true"></div>
+
+  <main class="page">
+    <section class="hero card">
+      <p class="eyebrow">A LITTLE SOMETHING FOR YOU</p>
+      <div class="hero-art" aria-label="Cute illustrated birthday cake and teddy bear" role="img">
+        <div class="sparkle s1">✦</div><div class="sparkle s2">✧</div>
+        <div class="teddy"><div class="ear left"></div><div class="ear right"></div><div class="face"><span class="eye e1"></span><span class="eye e2"></span><span class="nose">♥</span><span class="cheek c1"></span><span class="cheek c2"></span></div><div class="body"></div><div class="arm a1"></div><div class="arm a2"></div></div>
+        <div class="cake-plate"></div>
+        <div class="cake-art"><div class="candle"><i></i></div><div class="icing"></div><div class="cake-top"></div><div class="cake-bottom"></div><div class="cake-drip d1"></div><div class="cake-drip d2"></div><div class="cake-drip d3"></div><div class="cake-heart">♥</div></div>
+        <div class="tiny-heart h1">♥</div><div class="tiny-heart h2">♡</div><div class="tiny-heart h3">♥</div>
+      </div>
+      <h1>Hey, my favorite person <span>♡</span></h1>
+      <p class="intro">I made a tiny little corner of the internet just for you.</p>
+      <a class="scroll-button" href="#question">There’s something I wanna ask… ↓</a>
+    </section>
+
+    <section class="question card" id="question">
+      <p class="eyebrow">BE HONEST WITH ME</p>
+      <div class="question-heart">💗</div>
+      <h2>Oya mata adareida? 🥺</h2>
+      <p class="question-sub">Do you love me?</p>
+      <div class="answer-area">
+        <button class="yes-button" id="yesButton">YES! ♡</button>
+        <button class="no-button" id="noButton">No 🙈</button>
+      </div>
+      <p class="answer-message" id="answerMessage" aria-live="polite"></p>
+      <p class="tiny-note">Choose carefully… this heart is watching 👀</p>
+    </section>
+
+    <section class="wish card" id="wish">
+      <p class="eyebrow">YOUR SPECIAL DAY</p>
+      <div class="wish-art">🩵🩵🩵</div>
+      <h2>Happy Birthday, sweetheart! 🎉</h2>
+      <p class="wish-text">
+        I hope your future is filled with happiness, success, and beautiful moments. May all your dreams come true, and may life always give you reasons to smile ♡
+      </p>
+      <p class="love-note">Your gift is all my love for you!  🎂💙 </p>
+    </section>
+
+    <section class="gift card">
+      <p class="eyebrow">ONE LAST LITTLE SURPRISE</p>
+      <h2>I got something for you 🎁</h2>
+      <p class="gift-hint">Tap the gift to open it!</p>
+      <button class="gift-button" id="giftButton" aria-label="Open your birthday gift">
+        <span class="gift-bow">🎀</span>
+        <span class="gift-box">🎁</span>
+        <span class="gift-sparkle">✨</span>
+      </button>
+      <div class="gift-message" id="giftMessage" hidden>
+        <div class="birthday-cake" aria-hidden="true">
+          <span class="cake-sparkle sparkle-one">✦</span>
+          <span class="cake-sparkle sparkle-two">✧</span>
+          <span class="cake-sparkle sparkle-three">✦</span>
+          <span class="cake-sparkle sparkle-four">✧</span>
+          <div class="cake-stand"></div>
+          <div class="cake-lower-tier"></div>
+          <div class="cake-age">29</div>
+          <div class="cake-upper-tier"></div>
+          <div class="cake-candles">
+            <span class="cake-candle"><i></i></span>
+            <span class="cake-candle"><i></i></span>
+            <span class="cake-candle"><i></i></span>
+            <span class="cake-candle"><i></i></span>
+            <span class="cake-candle"><i></i></span>
+          </div>
+        </div>
+        <div class="gift-open-emoji">💝</div>
+        <h3>Your gift </h3>
+        <p>You are the dream love I always wished for, and you make me so happy. Thank you for coming into my life and giving me so many reasons to smile. I’m truly grateful to have you. ♡</p>
+        <span class="gift-heart" aria-hidden="true" hidden>🩵🩵🩵</span>
+      </div>
+    </section>
+
+    <audio id="birthdayAudio" src="leberch-happy-birthday-581704.mp3" loop preload="auto"></audio>
+    <button class="music-toggle" id="musicToggle" type="button" aria-label="Play birthday song">♫ Play birthday song</button>
+
+    <footer>Made with love, just for you ♡</footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
